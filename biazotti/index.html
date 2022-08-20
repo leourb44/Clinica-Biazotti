@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <title>Biazotti</title>
+</head>
+
+<body>
+
+    <header>
+        <img id="logo" src="src/imagens/Logo B do Biazotti Claudia Duran.svg" alt="">
+    </header>
+    <section id="section1">
+        <div id="cartoes">
+            <h1>Você está a um clique de sua felicidade</h1>
+            <h2>Seu bebê é a nossa recompensa!</h2>
+
+            <!-- Primeiro card -->
+            <div class="cartao">
+                <h3>1</h3>
+                <h3>Está com dificuldades para engravidar?</h3>
+                <p class="texto">Não se preocupe! São muitas váriaveis que dificultam a gravidez. Nossa missão é
+                    identificar a etiologia do problema e escolher a melhor conduta.</p>
+            </div>
+
+            <!-- Segundo card -->
+            <div class="cartao">
+                <h3>2</h3>
+                <h3>Um método baseado em resultados!</h3>
+                <p class="texto">Com experiência, dedicação e ética, há mais de 30 anos, temos estrutura e conhecimento
+                    científico para proporcionar os melhores resultados aos nossos pacientes.</p>
+            </div>
+        </div>
+
+        <!-- Carroussel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="src/imagens/doutora.svg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/imagens/cirurgia.svg" class="d-block w-100" alt="...">
+                    <!-- </div>
+                <div class="carousel-item">
+                <img src="#" class="d-block w-100" alt="...">
+                </div> -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+    </section>
+    <section id="section2">
+        <div id="container-img">
+            <img id="fita" src="src/imagens/fitaDobrada 1.svg" alt="">
+            <img id="nascimento" src="src/imagens/nascimento.jpeg" alt="">
+        </div>
+
+        <form action="" method="Post">
+
+            <h1>Vamos Lá!</h1>
+
+            <div>
+                <label for="nome">Nome</label><br>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div>
+                <label for="sobrenome">Sobrenome</label><br>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+            <div>
+                <label for="email">E-mail</label><br>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="telefone">Telefone</label> <br>
+                <input type="tel" name="telefone" id="telefone">
+            </div>
+            <div class="button">
+                <button id="botao" type="submit">Quero realizar meu sonho!</button>
+            </div>
+        </form>
+    </section>
+
+
+
+</body>
+
+</html>
